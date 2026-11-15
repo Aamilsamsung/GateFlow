@@ -3,7 +3,7 @@ import {LayoutDashboard,ClipboardList,Users,ScanLine,Clock3,ShieldCheck,LogOut,P
 
 const roles=['student','parent','warden','security','admin'];
 const menus={
-student:[['Overview',LayoutDashboard],['My Requests',ClipboardList],['Exit Pass',ShieldCheck]],
+student:[['Overview',LayoutDashboard],['My Requests',ClipboardList],['Apply for Leave',Plus],['Exit Pass',ShieldCheck]],
 parent:[['Overview',LayoutDashboard],['Requests',ClipboardList]],
 warden:[['Overview',LayoutDashboard],['Leave Requests',ClipboardList],['Movement Log',Activity]],
 security:[['Overview',LayoutDashboard],['Verify Pass',ScanLine],['Movements',Activity]],
